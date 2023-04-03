@@ -1,0 +1,107 @@
+.logo{
+    width:100px;
+    height:110px; /*높이*/
+    margin: 50px auto; /* 사이즈 알때 사용*/
+    
+}
+.menu{
+    background-color: #005891;
+    text-align: center; /*사이즈모를때 사용*/
+    height: 50px;    /* 높이*/
+    line-height: 50px; /*행 높이*/
+    color: white;
+    margin: 50px 0; /*바깥여백 상하50 좌우 0*/
+   
+    
+}
+.menu a {
+    color: white;
+    text-decoration: none; /* 꾸밈 : 밑줄 없음*/
+    margin: 0 10px; /*바깥 여백 상하0 좌우 10*/
+    font-size: 14px;
+    font-weight: bold; /* 글자 두껍게*/
+}
+.menu a:hover{ /*의사 (pseudo-class)* 선택자*/
+    color: #fcff00;
+}
+.hero{
+    width:800px; /*가로폭*/
+    height:500px; /*세로높이*/
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    margin:50px 0;
+}
+.title h1{
+    font-size: 22px;
+}
+.title p{
+    font-size: 16px;
+    margin:10px 0;
+    color:#555555;
+}
+.clips{
+    width:650px;
+    margin:0 auto;
+    font-size: 0; /*글자크기 0 (없음, 표시x*/
+    display: flex; /*가로로 나열해서 표현*/
+}
+.clip:nth-child(1){ /*clip 2둘중에 첫번째*/
+    margin-right: 50px;
+}
+
+.clip h2, .clip p{
+    font-size: 16px;
+    margin:20px 0;
+    text-align: center;
+}
+.clip h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social_media{
+    text-align: center;
+    margin:30px 0;
+}
+.social_media a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.social_media a:nth-child(4){
+    margin-right: 0;
+}
+.contact{
+    text-align: center;
+}
+.contact h2 {
+    font-size: 15px;
+    color: #005891;
+    text-transform:uppercase; /*대문자로 변형 (대>소lowercase)*/
+
+}
+.contact p{
+    font-weight: bold; /*글자두껍게*/
+    font-size: 30px;
+    color:#005891;
+}
+.info {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.info p:nth-child(1){
+    font-size: 13px;
+    margin-bottom:10px;
+}
+.info p:nth-child(2){
+    text-transform: uppercase;
+    font-size:11px;
+}
+hr{
+    margin:50px 0;
+    background-color:#005891;
+    border:0; /*테두리없음*/
+    height:1px;
+   
+}
