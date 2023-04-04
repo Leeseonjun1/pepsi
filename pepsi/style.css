@@ -1,0 +1,14 @@
+.logo{
+    width:100px;
+    height:110px;
+    margin: 0 auto; /* 사이즈 알때 사용*/
+
+}
+.menu{
+    background-color: #005891;
+    text-align: center;
+    height: 50px;
+    line-height: 50px; /*행 높이*/
+    color: white;
+    
+}
